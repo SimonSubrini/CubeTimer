@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Timer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item logo">
+            <img src="./images/Logotype.png" alt="Logotype" id="logotype">
+        </div>
+        <div class="grid-item timesList">
+            <table id="timesTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tiempo</th>
+                        <th>Avg5</th>
+                        <th>Avg12</th>
+                    </tr>
+                </thead>
+                <tbody id="timesTableBody">
+                </tbody>
+            </table>
+        </div>
+        <main class="grid-item main" tabindex="0">
+            <h1 id="cube">Cubo 3X3</h1>
+            <h2>Scramble: <span id="scramble"></span></h2>
+            <div class="chronometer">
+                <p class="hours"></p>
+                <p class="minutes">00:</p>
+                <p class="seconds">00</p>
+                <p class="cents">00</p>
+            </div>
+            <p class="text">Presione espacio para iniciar</p>
+        </main>
+        <div class="rubiks-cube">
+            
+            <div class="not-row face up">
+                <div class="piece u1"></div>
+                <div class="piece u2"></div>
+                <div class="piece u3"></div>
+                <div class="piece u4"></div>
+                <div class="piece u5"></div>
+                <div class="piece u6"></div>
+                <div class="piece u7"></div>
+                <div class="piece u8"></div>
+                <div class="piece u9"></div>
+            </div>
+            <div class="row">
+                <div class="face">
+                    <div class="piece l1"></div>
+                    <div class="piece l2"></div>
+                    <div class="piece l3"></div>
+                    <div class="piece l4"></div>
+                    <div class="piece l5"></div>
+                    <div class="piece l6"></div>
+                    <div class="piece l7"></div>
+                    <div class="piece l8"></div>
+                    <div class="piece l9"></div>
+                </div>
+                <div class="face">
+                    <div class="piece f1"></div>
+                    <div class="piece f2"></div>
+                    <div class="piece f3"></div>
+                    <div class="piece f4"></div>
+                    <div class="piece f5"></div>
+                    <div class="piece f6"></div>
+                    <div class="piece f7"></div>
+                    <div class="piece f8"></div>
+                    <div class="piece f9"></div>
+                </div>
+                <div class="face">
+                    <div class="piece r1"></div>
+                    <div class="piece r2"></div>
+                    <div class="piece r3"></div>
+                    <div class="piece r4"></div>
+                    <div class="piece r5"></div>
+                    <div class="piece r6"></div>
+                    <div class="piece r7"></div>
+                    <div class="piece r8"></div>
+                    <div class="piece r9"></div>
+                </div>
+                <div class="face">
+                    <div class="piece b1"></div>
+                    <div class="piece b2"></div>
+                    <div class="piece b3"></div>
+                    <div class="piece b4"></div>
+                    <div class="piece b5"></div>
+                    <div class="piece b6"></div>
+                    <div class="piece b7"></div>
+                    <div class="piece b8"></div>
+                    <div class="piece b9"></div>
+                </div>
+            </div>
+            
+            <div class="not-row face">
+                <div class="piece d1"></div>
+                <div class="piece d2"></div>
+                <div class="piece d3"></div>
+                <div class="piece d4"></div>
+                <div class="piece d5"></div>
+                <div class="piece d6"></div>
+                <div class="piece d7"></div>
+                <div class="piece d8"></div>
+                <div class="piece d9"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
