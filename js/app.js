@@ -13,12 +13,12 @@ const cubePlot = document.querySelector('.rubiks-cube')
 const times = [];
 const moves = ['R', 'L', 'U', 'D', 'F', 'B', "R'", "L'", "U'", "D'", "F'", "B'", 'R2', 'L2', 'U2', 'D2', 'F2', 'B2'];
 const colors = {
-    u: '#FFF',  // Cara superior (Up)
-    l: '#FF6636',  // Cara izquierda (Left)
-    f: '#16B22B',    // Cara frontal (Front)
-    r: '#F00C0C',     // Cara derecha (Right)
-    b: '#1F3EFF',   // Cara trasera (Back)
-    d: '#F6FF0C'    // Cara inferior (Down)
+    u: '#e7e6e5',  // Cara superior (Up)
+    l: '#ff7d09',  // Cara izquierda (Left)
+    f: '#06ff00',    // Cara frontal (Front)
+    r: '#ff0000',     // Cara derecha (Right)
+    b: '#1908b4',   // Cara trasera (Back)
+    d: '#f3e119'    // Cara inferior (Down)
 };
 
 let state = 0; // 0: pause, 1: 15sec 2: go
