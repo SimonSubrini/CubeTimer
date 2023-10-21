@@ -13,16 +13,13 @@
     height: 100vh;
 }
 
-.flex-item{
-    border: 1px solid black;
-}
-
 .timesList{
     background-color: antiquewhite;
     min-width: 250px;
     text-align: center;
     padding: 10px;
     overflow: auto;
+    outline: 1px solid black;
 }
 
 #timesTable{
@@ -50,7 +47,7 @@ td{
     justify-items: center;
     text-align: center;
     width:100%;
-    border: 1px solid black;
+    outline: 1px solid black;
 }
 
 #logotype{
